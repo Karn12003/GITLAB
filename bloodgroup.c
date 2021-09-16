@@ -9,7 +9,11 @@ void main()
     scanf("%s", Name);
     do
     {
+<<<<<<< HEAD
       printf("What is your bloodXXXX group [A, B, AB, or O]? ");
+=======
+      printf("What is your bloodx group [A, B, AB, or O]? ");
+>>>>>>> d590df190fad63dfc9c3c1d56f8692f41afd906d
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
@@ -44,5 +48,9 @@ void main()
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
+<<<<<<< HEAD
   printf("Goodbyebye!!!\n");
+=======
+  printf("Goodbyebyee\n");
+>>>>>>> d590df190fad63dfc9c3c1d56f8692f41afd906d
 }
